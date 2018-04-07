@@ -69,13 +69,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #228B22;
+  border-color: #228B22;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #68C468 !important;
+  border-color: #68C468 !important;
   color: white;
 }
 
@@ -187,8 +187,8 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
-  font-style: italic;
+  font-size: 18px;
+  font-style: italic underline;
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;

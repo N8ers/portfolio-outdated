@@ -65,11 +65,11 @@ section h3.section-subheading {
   font-size: 21px;
   text-align: center;
 
-  -webkit-animation: flickerAnimation 5s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: flickerAnimation 5s; /* Firefox < 16 */
-      -ms-animation: flickerAnimation 5s; /* Internet Explorer */
-       -o-animation: flickerAnimation 5s; /* Opera < 12.1 */
-          animation: flickerAnimation 5s;
+  -webkit-animation: flickerAnimation 3s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: flickerAnimation 3s; /* Firefox < 16 */
+      -ms-animation: flickerAnimation 3s; /* Internet Explorer */
+       -o-animation: flickerAnimation 3s; /* Opera < 12.1 */
+          animation: flickerAnimation 3s;
 }
 
 @keyframes flickerAnimation { /* flame pulses */
@@ -79,7 +79,7 @@ section h3.section-subheading {
 }
 .animate-flicker {
     opacity:1;  
-    animation: flickerAnimation 5s infinite;
+    animation: flickerAnimation 3s infinite;
 }
 
 /* Firefox < 16 */

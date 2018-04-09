@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
 }
 
 p {
@@ -16,7 +17,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #228B22 !important;
 }
 
 h1,
@@ -160,7 +161,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #228B22;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -176,6 +177,8 @@ img::-moz-selection {
   padding: 10px 15px 10px 10px;
 }
 
+/* these are some nav controls that you need to look at */
+/* ------------------------------------------------------------- */
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
   font-weight: 400;
@@ -189,6 +192,7 @@ img::-moz-selection {
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #228B22;
 }
+/* ----------------------------------------------------------------- */
 
 @media (min-width: 992px) {
   #mainNav {
@@ -233,6 +237,7 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.35);
 }
 
 header.masthead .intro-text {

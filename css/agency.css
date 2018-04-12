@@ -178,7 +178,7 @@ img::-moz-selection {
 }
 
 /* these are some nav controls that you need to look at */
-/* ------------------------------------------------------------- */
+-------------------------------------------------------------
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
   font-weight: 400;
@@ -192,7 +192,7 @@ img::-moz-selection {
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #228B22;
 }
-/* ----------------------------------------------------------------- */
+-----------------------------------------------------------------
 
 @media (min-width: 992px) {
   #mainNav {

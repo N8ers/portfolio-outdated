@@ -521,5 +521,5 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .surge-logo {
   height: 40px;
   width: 40px;
-  margin-bottom: 0;
+  margin-bottom: 30px !important;
 }
